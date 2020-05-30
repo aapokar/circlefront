@@ -3,7 +3,7 @@ services:
   frontti:
     image: aapokar/frontdeploy
     ports:
-      - 5000:5000
+      - 5000:3000
     container_name: fordeploy
   watchtower:
     image: containrrr/watchtower
