@@ -4,7 +4,7 @@ ENV API_URL="http://localhost:8000"
 
 WORKDIR /usr/app/
 
-EXPOSE 5000
+EXPOSE 80
 
 COPY . .
 
