@@ -5,8 +5,7 @@
   "description": "Example frontend project for docker course",
   "main": "index.js",
   "scripts": {
-    "start1": "webpack --mode production && serve -s -l 3000 dist",
-    "start": "node index.js",
+    "start": "webpack --mode production && serve -s -l 3000 dist",
     "build": "webpack --mode production",
     "dev": "webpack-dev-server --mode development --hot",
     "lint": "eslint . --fix",
